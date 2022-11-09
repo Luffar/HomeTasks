@@ -35,7 +35,8 @@ public class Animal {
         this.eats = eats;
         this.noOfPaws = noOfPaws;
     }
-    public Animal(){
+
+    public Animal() {
 
     }
 }

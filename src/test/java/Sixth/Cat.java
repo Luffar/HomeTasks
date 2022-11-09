@@ -17,7 +17,7 @@ public class Cat extends Animal {
     }
 
     public Cat(boolean vegetarian, String eats, int noOfPaws) {
-        super(vegetarian,eats, noOfPaws);
+        super(vegetarian, eats, noOfPaws);
         color = "ginger";
     }
 }
