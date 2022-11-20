@@ -13,7 +13,8 @@ public class Smash {
         String[] words = programmingLanguagesName.split(", ");
         Set<String> items = new HashSet<>(Arrays.asList(words));
         for (String s:items){
-            System.out.println(s.substring(0, 1).toUpperCase() + s.substring(1));
+            s = s.substring(0, 1).toUpperCase() + s.substring(1);
+            System.out.println(s);
         }
     }
 }
